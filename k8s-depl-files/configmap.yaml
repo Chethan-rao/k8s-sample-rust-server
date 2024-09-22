@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rust-server-configmap
+  namespace: rust-server-namespace
+data:
+  TEST_ENV: "hello world"
